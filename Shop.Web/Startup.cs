@@ -34,7 +34,10 @@ namespace Shop.Web
             });
 
             // Inyecto 
+            // transinent se la lleva el recolector . 
             services.AddTransient<SeedDb>();
+            // Scope queda en memoria cada ves que se llame 
+            services.AddScoped<IRepository, Repository>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {
