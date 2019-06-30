@@ -5,7 +5,11 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-
+    /// <summary>
+    ///         THESE METHODS ARE NOT USED
+    ///          THIS METHOD NOT SE USA .
+    ///          LOS DEJO SOLO DE CONNECTION OPCIONAL 
+    /// </summary>
     public class Repository : IRepository
     {
         private readonly DataContext context;
