@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Shop.Web.Data;
-using System.Threading.Tasks;
-
-namespace Shop.Web.Helper
+﻿namespace Shop.Web.Helper
 {
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Identity;
+    using Data;
+
+
     public class UserHelper : IUserHelper
     {
         private readonly UserManager<User> userManager;

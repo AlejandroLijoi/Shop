@@ -5,7 +5,7 @@
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Identity;
     using Entities;
-    using Shop.Web.Helper;
+    using Helper;
   
     public class SeedDb
     {
